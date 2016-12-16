@@ -1,8 +1,17 @@
-
 import csv
 
 # Exercise 1 : Simple Reader
+fd = open('test_files/a.csv','r')
+try:
+    reader1 = csv.reader(fd)
+    for row in reader1:
+        print row;
 
+except ValueError:
+    print ValueError
+
+finally:
+    fd.close()
 
 # Exercise 2a : Format keyword arguments
 
