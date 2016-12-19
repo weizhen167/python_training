@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" line="13" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e713f37-6898-4772-9dab-2821017bead4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02contextlib &amp; traceback/context_lib_script.py" afterPath="$PROJECT_DIR$/02contextlib &amp; traceback/context_lib_script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" afterPath="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="traceback.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            <state relative-caret-position="437">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -77,9 +78,9 @@
         <option value="$PROJECT_DIR$/01csv/test_files/c_updates.ind" />
         <option value="$PROJECT_DIR$/01csv/csv_training.py" />
         <option value="$PROJECT_DIR$/02contextlib &amp; traceback/contextlib.py" />
-        <option value="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" />
         <option value="$PROJECT_DIR$/02contextlib &amp; traceback/output.txt" />
         <option value="$PROJECT_DIR$/02contextlib &amp; traceback/context_lib_script.py" />
+        <option value="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" />
       </list>
     </option>
   </component>
@@ -164,7 +165,7 @@
       <recent name="C:\Users\zwei\Desktop\code\python_training\csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.context_lib_script">
+  <component name="RunManager" selected="Python.traceback">
     <configuration default="false" name="context_lib_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,6 +179,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_training" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02contextlib &amp; traceback/context_lib_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="traceback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02contextlib &amp; traceback" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_training" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -316,12 +334,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.context_lib_script" />
+      <item index="1" class="java.lang.String" itemvalue="Python.traceback" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.context_lib_script" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.traceback" />
+        <item index="1" class="java.lang.String" itemvalue="Python.context_lib_script" />
       </list>
     </recent_temporary>
   </component>
@@ -493,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="437">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
