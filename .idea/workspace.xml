@@ -6,10 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e713f37-6898-4772-9dab-2821017bead4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03io&amp;pickle/Penguins.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03io&amp;pickle/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03io&amp;pickle/io_pickle.py" afterPath="$PROJECT_DIR$/03io&amp;pickle/io_pickle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py" afterPath="$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="io_pickle.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03io&amp;pickle/io_pickle.py">
+      <file leaf-file-name="args_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state relative-caret-position="413">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="encoder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda2/Lib/json/encoder.py">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/args_parser &amp; config parser/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +72,8 @@
         <option value="$PROJECT_DIR$/02contextlib &amp; traceback/traceback.py" />
         <option value="$PROJECT_DIR$/args_parser &amp; config parser/config.ini" />
         <option value="$PROJECT_DIR$/args_parser &amp; config parser/config.py" />
-        <option value="$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py" />
         <option value="$PROJECT_DIR$/03io&amp;pickle/io_pickle.py" />
+        <option value="$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py" />
       </list>
     </option>
   </component>
@@ -129,6 +126,10 @@
               <option name="myItemId" value="python_training" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="args_parser &amp; config parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -137,10 +138,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03io&amp;pickle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -158,7 +155,7 @@
       <recent name="C:\Users\zwei\Desktop\code\python_training\csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.io_pickle">
+  <component name="RunManager" selected="Python.args_parser">
     <configuration default="false" name="context_lib_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,7 +371,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_training" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py" />
-      <option name="PARAMETERS" value="12 2" />
+      <option name="PARAMETERS" value="--noarg 12 --witharg 22 val 22" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -411,7 +408,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="-9" width="1821" height="1098" extended-state="7" />
+    <frame x="108" y="-9" width="1821" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -671,22 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/args_parser &amp; config parser/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03io&amp;pickle/Penguins.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -734,6 +715,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03io&amp;pickle/io_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Anaconda2/Lib/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -742,10 +731,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03io&amp;pickle/io_pickle.py">
+    <entry file="file://$PROJECT_DIR$/args_parser &amp; config parser/args_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="413">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args_parser &amp; config parser/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
