@@ -103,12 +103,14 @@ dictreader  =csv.DictReader(fd,index_columns,delimiter='\t', quoting=csv.QUOTE_N
 fd_out = open('test_files/c_dict_updates.ind','wb')
 dictwriter = csv.DictWriter(fd_out,index_columns,delimiter='\t', quoting=csv.QUOTE_NONE)
 header =fd.readline()
+print header
 fd_out.write(header)
 
 for row in dictreader:
-    print row
     row['SHIP_TYPE'] = "USPS"
     dictwriter.writerow(row)
+
+print row
 
 
 
