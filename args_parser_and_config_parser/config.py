@@ -13,6 +13,7 @@ print 'options:', o
 
 # get the config info of the given section. (load all key,values pairs)
 v = cf.items("db")
+
 print 'db:', v
 
 # read section option infomation according to it's type:
@@ -42,17 +43,17 @@ cf.write(open("config.ini", "w")) ## remember to rewrite
 
 
 #remove section or option
-cf.remove_option('liuqing', 'int')
-cf.remove_section('liuqing')
+cf.remove_option('sefas', 'int')
+cf.remove_section('sefas')
 cf.write(open("config.ini", "w"))
 
-#add a section
-cf.add_section('liuqing')
-cf.set('liuqing', 'int', '15')
-cf.set('liuqing', 'bool', 'true')
-cf.set('liuqing', 'float', '3.1415')
-cf.set('liuqing', 'baz', 'fun')
-cf.set('liuqing', 'bar', 'Python')
-cf.set('liuqing', 'foo', '%(bar)s is %(baz)s!')
-cf.write(open("config.ini", "w")) ## remember to rewrite
 
+#add a section
+cf.add_section('sefas')
+cf.set('sefas', 'int', '15')
+cf.set('sefas', 'bool', 'true')
+cf.set('sefas', 'float', '3.1415')
+cf.set('sefas', 'baz', 'fun')
+cf.set('sefas', 'bar', 'Python')
+cf.set('sefas', 'foo', '%(bar)s is %(baz)s!')
+cf.write(open("config.ini", "w")) ## remember to rewrite
