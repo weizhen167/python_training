@@ -1,0 +1,1 @@
+<Base><JobId example="text" example2="text2">notice how this changed</JobId><Job_path>/adf/workdir/123456</Job_path><Params><Param name="xyz">value2</Param><Param name="abc">value1</Param><Param name="fhg">value3</Param></Params></Base>

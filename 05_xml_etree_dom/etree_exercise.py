@@ -46,22 +46,43 @@ xml_string = """<Base>
 """
 
 # Parsing from a string
-
+a = ET.fromstring(xml_string)
+#rec_print(a)
 
 # Parsing from a file
-
+etree = ET.parse('weather.xml')
+#rec_print(a.getroot())
 
 ##### Basic operations (create, read, update, delete) #####
 
 # Get the root of a tree
+root = etree.getroot()
 
 # Iterate through the children
 
 
-# Searching through a tree
 
+#for child in root: print child.tag
+
+
+
+# Searching through a tree
+print root.iter("dewpoint_f")
+print root.find("dewpoint_f")
+print root.findall("dewpoint_f")
 
 # Element resolves to True or False, for if conditions
+
+if root.find("dewpoint_f") is not None:
+    print "yes"
+else:
+    print "no"
+
+
+
+
+
+
 
 
 # Building that tree from the xml string
@@ -78,21 +99,44 @@ xml_string = """<Base>
 """
 '''
 
+
+xml_tree = ET.ElementTree(ET.Element('Base'))
+sample_root = xml_tree.getroot()
+job_elem = ET.SubElement(sample_root, "JobId")
+job_elem.text = "123456"
+job_path_elem = ET.SubElement(sample_root,"Job_path")
+job_path_elem.text = '/adf/workdir/123456'
+
+params = ET.SubElement(sample_root,"Params")
+
 pars = {
     "abc":"value1",
     "xyz":"value2",
     "fhg":"value3"
 }
 
+for key in pars:
+    param = ET.SubElement(params,"Param",{"name":key})
+    param.text = pars[key]
+
+rec_print(sample_root)
+
+job_elem.text = "notice how this changed"
+job_elem.set("example",'text')
+job_elem.attrib['example2'] = 'text2'
+job_elem.append(job_path_elem)
 # rec_print(sample_root)
 
 # Updating an element
 
 # Removing an element
+job_elem.remove(job_path_elem)
+rec_print(sample_root)
 
 # Write back to a string / file
 # print ET.tostring(sample_root)
-# xml_tree.write('sample.xml')
+xml_tree.write('sample.xml')
+#rec_print(xml_tree)
 
 
 # To wrap things up, let's go into a little more detail with finding information
@@ -111,12 +155,13 @@ pars = {
 # [position]        : child element with given index
 
 # Example 1: grandchildren with the given tag name
-
+print sample_root.findall("./*/Param")
 # Example 2: any element with name = abc
-
+print sample_root.findall(".//*[@name='abc']")
 # Example 3: The parent(s) of elements with tag 'Param'
-
+print sample_root.findall(".//Param/..")
 # Example 4: The last Param element
+print sample_root.findall(".//Params/Param[last()]")[0].text
 
 # Now, give it a try. There is a file called all_the_weather.xml, containing the
 # same info as weather.xml, except for all measured locations in MA.
