@@ -1,0 +1,2 @@
+Times New Roman:times,times-roman,timesnewroman,times
+Arial Narrow: arial-narrow, arial_narrow, arialnarrow

@@ -1,3 +1,0 @@
-<tag_1>
-hello_world
-</tag_1>

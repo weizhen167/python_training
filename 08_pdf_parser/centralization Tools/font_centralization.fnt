@@ -1,0 +1,8 @@
+[Arial Narrow]
+	family=Arial Narrow
+	substitute=Arial_Narrow,Arial Narrow
+	style=normal
+	size=*
+	file=arial-narrow.ttf
+	dynamic=1
+

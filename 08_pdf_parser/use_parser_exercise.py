@@ -53,18 +53,25 @@ Options:
 
 
 # Example 2: Search for an object with the given phrase
+output = subprocess.check_output('pdf-parser.py hello-world.pdf', shell=True)
+
+output = subprocess.check_output('pdf-parser.py hello-world.pdf -s Font', shell=True)
 
 
 # Example 3: Get a specific object
 
-
+output = subprocess.check_output('pdf-parser.py hello-world.pdf -o 7', shell=True)
 # Example 4: Get references to that object
-
+output = subprocess.check_output('pdf-parser.py hello-world.pdf -r 7', shell=True)
 
 # Example 5: Get output from the stream
 
-
+output = subprocess.check_output('pdf-parser.py hello-world.pdf -o 5 -d out.txt', shell=True)
 # Example 6: Search within streams
-
+output = subprocess.check_output('pdf-parser.py hello-world.pdf --searchstream "hello world"', shell=True)
 
 # Example 7: Get a picture from the file
+output = subprocess.check_output('pdf-parser.py Fonts_example.pdf -s Image', shell=True)
+
+output = subprocess.check_output('pdf-parser.py Fonts_example.pdf -o 13 -d out.jpg', shell=True)
+print output
