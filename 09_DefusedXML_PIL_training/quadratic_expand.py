@@ -1,7 +1,10 @@
-import xml.etree.ElementTree as et
+import defusedxml.ElementTree as et
+#import xml.etree.ElementTree as et
 import datetime
 start = datetime.datetime.now()
-#Do stuff
+tree = et.parse(r'quadratic_blowup.xml')
+root = tree.getroot()
+print root.text
 end = datetime.datetime.now()
 print end - start
 

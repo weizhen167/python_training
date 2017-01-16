@@ -1,7 +1,7 @@
 import pickle,pprint
 
 #Reading from files
-"""
+
 with open("test.txt", 'rb')as fd:
     #reader = fd.read()
     #reader = fd.readlines()
@@ -72,9 +72,12 @@ with open('024211_premerged.pkl','rb') as rf:
 #Accessing pickle files
 """
 
+
 #json
 import json
 json_list = ['foo',{'batr0':('badsa',None,1.0,2)},{1:'test'}]
 json_v = json.dumps(json_list)
 print json.loads(json_v)
-#print json.dumps(dict)
+print json.dumps(dict)
+
+"""
